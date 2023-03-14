@@ -22,7 +22,7 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-//일반 Jar 생성
+//일반 Jar 생성 - 오류
 task buildJar(type: Jar) {
     manifest {
         attributes 'Main-Class': 'hello.embed.EmbedTomcatSpringMain'
